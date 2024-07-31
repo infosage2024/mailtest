@@ -35,9 +35,13 @@ export default function MyForm() {
           "Content-Type": "application/json",
         },
       });
-      console.log(res);
+      // console.log(res);
       if (res.status > 199 && res.status < 300) {
         alert("Send Successfully !");
+      } else {
+        alert(
+          "Some error have occured while sending the mail. Please try again."
+        );
       }
     } catch (error) {
       alert(error);
