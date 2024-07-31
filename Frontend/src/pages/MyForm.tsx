@@ -18,7 +18,7 @@ export default function MyForm() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const baseUrl = "https://mailtest-iota.vercel.app/";
+  const baseUrl = "https://mailtest-2qx3uzcpa-infosages-projects.vercel.app/";
 
   const sendEmail = async () => {
     let dataSend = {
