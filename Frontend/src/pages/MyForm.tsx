@@ -22,7 +22,7 @@ export default function MyForm() {
 
   const sendEmail = async () => {
     let dataSend = {
-      email: "polusaiashish2668@gmail.com",
+      email: "connect@infosagesolutions.com",
       subject: subject,
       message: message,
     };
